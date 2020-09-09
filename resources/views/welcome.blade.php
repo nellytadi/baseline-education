@@ -27,7 +27,7 @@
         <div id="particles-1" class="full-image" data-mask="50"></div>
 
         <!-- Media -->
-        <div class="parallax-x-bg" style="background-image:url(/assets/images/bg-parallax.png)"
+        <div class="parallax-x-bg" style="background-image:url('{{asset('assets/images/bg-parallax-1.png')}}')"
              data-swiper-parallax="-50%"></div>
 
         <div class="swiper-wrapper">
