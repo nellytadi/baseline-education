@@ -56,7 +56,7 @@
                 <div class="col-12 col-lg-8 p-0 align-self-top text">
                     <div class="row intro m-0">
                         <div class="col-12">
-                            <span class="pre-title m-0">A success story</span>
+                            {{--<span class="pre-title m-0">A success story</span>--}}
                             <h2><span class="featured"><span>English   </span></span> Tests</h2>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                                 <li>Trained and certified tutors</li>
                                 <li>Registration of the examination</li>
                                 <li>High Success rate</li>
-                                <li>Free Manual and training materials</li>
+                                <li>Comprehensive Manual and training material</li>
                                 <li>Mock examination and revision classes to determine if you ready to TAKE THE EXAMINATION.</li>
                             </ul>
 
@@ -121,85 +121,6 @@
         </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="section-2 odd highlights image-right featured">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text">
-                    <div data-aos="fade-up" class="row intro">
-                        <div class="col-12 p-0">
-                            <span class="pre-title m-auto m-md-0">About Baseline</span>
-                            <h2><span class="featured"><span>Baseline</span></span> Educational Services</h2>
-                            <p>We are an established and registered Education consulting agency in Nigeria. We assist
-                                students seeking to study abroad by providing the widest range of services and
-                                commitments.</p>
-
-                        </div>
-                    </div>
-                    <div class="row items">
-                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
-                            <h4>
-                                <div class="float-left">
-                                    <i class="mr-2 icon-badge"></i>
-                                </div>
-                                <div>
-                                    Excellence
-                                </div>
-                            </h4>
-
-                        </div>
-                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
-
-                            <h4>
-                                <div class="float-left">
-                                    <i class="mr-2 icon-lock"></i>
-                                </div>
-                                <div>
-                                    Trust
-                                </div>
-                            </h4>
-
-                        </div>
-                    </div>
-                    <div class="row items">
-                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
-                            <h4>
-                                <div class="float-left">
-                                    <i class="mr-2 icon-note"></i>
-                                </div>
-                                <div>
-                                    Quality Services Delivery
-                                </div>
-
-                            </h4>
-
-                        </div>
-                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
-                            <h4>
-                                <div class="float-left">
-                                    <i class="mr-2 icon-graduation"></i>
-                                </div>
-                                <div>
-                                    Positive relationships
-                                </div>
-                            </h4>
-                        </div>
-                    </div>
-
-                    <!-- Action -->
-                    <div data-aos="fade-up" class="buttons">
-                        <div class="d-sm-inline-flex mb-5 mb-md-0">
-                            <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">GET IN TOUCH</a>
-                            <a href="#" class="smooth-anchor mx-auto ml-sm-4 mt-4 btn outline-button">READ MORE</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 p-0 image">
-                    <img src="{{asset('assets/images/about.jpg')}}" class="fit-image" alt="Fit Image">
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 @endsection

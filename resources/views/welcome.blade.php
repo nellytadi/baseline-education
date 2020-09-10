@@ -49,7 +49,7 @@
                             <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
                                 <div class="d-sm-inline-flex">
                                     <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
-                                    <a href="#services" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ
+                                    <a href="{{url('/company-profile')}}" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ
                                         MORE</a>
                                 </div>
                             </div>
@@ -120,9 +120,9 @@
     <div class="container">
         <div class="row intro">
             <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                <span class="pre-title m-auto ml-md-0">Our service areas</span>
-                <h2>Excellence in <span class="featured"><span>Services</span></span></h2>
-                <p>We are leaders in providing consultancy services with a set of cutting-edge technologies and a team
+                <span class="pre-title m-auto ml-md-0">Our Expertise</span>
+                <h2>Excellent <span class="featured"><span>Services</span></span></h2>
+                <p>We are leaders in providing consulting services with a set of cutting-edge technologies and a team
                     of experienced and renowned professionals. These are some services we provide.</p>
             </div>
             {{--<div class="col-12 col-md-3 align-self-end">--}}
@@ -181,81 +181,41 @@
     </div>
 </section>
 
-<!-- About -->
-<section id="about" class="section-2 odd highlights image-right featured">
+
+<!-- Fun Facts -->
+<section id="funfacts" class="section-4 odd counter funfacts">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text">
-                <div data-aos="fade-up" class="row intro">
-                    <div class="col-12 p-0">
-                        <span class="pre-title m-auto m-md-0">About Baseline</span>
-                        <h2><span class="featured"><span>Baseline</span></span> Educational Services</h2>
-                        <p>We are an established and registered Education consulting agency in Nigeria. We assist
-                            students seeking to study abroad by providing the widest range of services and
-                            commitments.</p>
-
-                    </div>
-                </div>
-                <div class="row items">
-                    <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
-                        <h4>
-                            <div class="float-left">
-                                <i class="mr-2 icon-badge"></i>
-                            </div>
-                            <div>
-                                Excellence
-                            </div>
-                        </h4>
-
-                    </div>
-                    <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
-
-                        <h4>
-                            <div class="float-left">
-                                <i class="mr-2 icon-lock"></i>
-                            </div>
-                            <div>
-                                Trust
-                            </div>
-                        </h4>
-
-                    </div>
-                </div>
-                <div class="row items">
-                    <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
-                        <h4>
-                            <div class="float-left">
-                                <i class="mr-2 icon-note"></i>
-                            </div>
-                            <div>
-                                Quality Services Delivery
-                            </div>
-
-                        </h4>
-
-                    </div>
-                    <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
-                        <h4>
-                            <div class="float-left">
-                                <i class="mr-2 icon-graduation"></i>
-                            </div>
-                            <div>
-                                Positive relationships
-                            </div>
-                        </h4>
-                    </div>
-                </div>
-
-                <!-- Action -->
-                <div data-aos="fade-up" class="buttons">
-                    <div class="d-sm-inline-flex mb-5 mb-md-0">
-                        <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">GET IN TOUCH</a>
-                        <a href="{{url('why-us')}}" class="mx-auto ml-sm-4 mt-4 btn outline-button">READ MORE</a>
-                    </div>
-                </div>
+        <div class="row mb-md-5 text-center">
+            <div class="col-12">
+                <span class="pre-title">What are we doing</span>
+                <h2><span class="featured"><span>Results</span></span> in Numbers</h2>
             </div>
-            <div class="col-12 col-md-6 p-0 image">
-                <img src="{{asset('assets/images/about.jpg')}}" class="fit-image" alt="Fit Image">
+        </div>
+        <div data-aos-id="counter" data-aos="fade-up" data-aos-delay="200"
+             class="row justify-content-center text-center items">
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div data-percent="5" class="radial">
+                    <span></span>
+                </div>
+                <h4>Certifications</h4>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div data-percent="10" class="radial">
+                    <span></span>
+                </div>
+                <h4>Experts</h4>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 item">
+                <div data-percent="85" class="radial">
+                    <span></span>
+                </div>
+                <h4>Customers</h4>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 item">
+                <div data-percent="7" class="radial">
+                    <span></span>
+                </div>
+                <h4>Countries Served</h4>
             </div>
         </div>
     </div>
@@ -301,6 +261,10 @@
                         <label class="btn">
                             <input type="radio" value="australian" class="btn-filter-item">
                             <span>Australian</span>
+                        </label>
+                        <label class="btn">
+                            <input type="radio" value="netherlands" class="btn-filter-item">
+                            <span>Netherlands</span>
                         </label>
                     </div>
                 </div>
@@ -515,50 +479,27 @@
                     </div>
                 </div>
                 <!--END AUSTRALIA-->
+
+                <!--NETHERLANDS -->
+                <div class="col-6 col-md-4 col-lg-2 item filter-item"
+                     data-groups='["netherlands"]'>
+                    <div class="row card p-0 text-center">
+                        <img src="{{asset('assets/images/netherlands/hague.png')}}" alt="Lorem ipsum">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 item filter-item"
+                     data-groups='["netherlands"]'>
+                    <div class="row card p-0 text-center">
+                        <img src="{{asset('assets/images/netherlands/twente.png')}}" alt="Lorem ipsum">
+                    </div>
+                </div>
+                <!--END NETHERLANDS -->
                 <div class="col-1 filter-sizer"></div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Fun Facts -->
-<section id="funfacts" class="section-4 odd counter funfacts">
-    <div class="container">
-        <div class="row mb-md-5 text-center">
-            <div class="col-12">
-                <span class="pre-title">What are we doing</span>
-                <h2><span class="featured"><span>Results</span></span> in Numbers</h2>
-            </div>
-        </div>
-        <div data-aos-id="counter" data-aos="fade-up" data-aos-delay="200"
-             class="row justify-content-center text-center items">
-            <div class="col-12 col-md-6 col-lg-3 item">
-                <div data-percent="5" class="radial">
-                    <span></span>
-                </div>
-                <h4>Certifications</h4>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 item">
-                <div data-percent="10" class="radial">
-                    <span></span>
-                </div>
-                <h4>Employees</h4>
-            </div>
-            <div class="col-6 col-md-6 col-lg-3 item">
-                <div data-percent="85" class="radial">
-                    <span></span>
-                </div>
-                <h4>Customers</h4>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3 item">
-                <div data-percent="7" class="radial">
-                    <span></span>
-                </div>
-                <h4>Countries Served</h4>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 

@@ -103,18 +103,18 @@
             <!-- Navbar Icons -->
             <ul class="navbar-nav icons">
                 <li class="nav-item social">
-                    <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/Baselinedu" class="nav-link" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
                 </li>
                 <li class="nav-item social">
-                    <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://twitter.com/BaselineEducat1" class="nav-link" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
                 </li>
                 <li class="nav-item social">
                     <a href="https://www.instagram.com/baseline_edu/" class="nav-link" target="_blank"><i
                                 class="fab fa-instagram"></i></a>
                 </li>
-                <li class="nav-item social">
-                    <a href="#" class="nav-link pr-0"><i class="fab fa-linkedin-in"></i></a>
-                </li>
+
             </ul>
 
         </div>
@@ -193,6 +193,176 @@
 
 
 @yield('content')
+<style>
+    #services .card h4{
+        color:var(--primary-t-color);
+    }
+    #services .card li{
+        font-size:15px;
+    }
+</style>
+<section id="services" class="section-1 offers featured">
+    <div class="container">
+        <div class="row intro">
+            <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                {{--<span class="pre-title m-auto ml-md-0">Our Expertise</span>--}}
+                <h2><span class="featured"><span>Admission</span></span> Requirements</h2>
+
+                {{--<p>We are leaders in providing consulting services with a set of cutting-edge technologies and a team--}}
+                {{--of experienced and renowned professionals. These are some services we provide.</p>--}}
+            </div>
+            <div class="col-12 col-md-3" style="margin-top: 10px">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmMGBMgFER1EvvSqbN7k79rncNOL0-VNgLGJ3Mi68W1WEiw/viewform?usp=sf_link" target="_blank" class="btn mx-auto mr-md-0 ml-md-auto primary-button">Apply now</a>
+            </div>
+        </div>
+
+
+        <div class="row justify-content-center items">
+            <div class="col-12 col-md-12 col-lg-4 item">
+                <div class="card">
+                    <i class="icon icon-home"></i>
+                    <h4> Foundation Program</h4>
+
+                    <ul>
+                        <li>WAEC</li>
+                        <li>IELTS</li>
+                        <li>International Passport Data Page</li>
+
+                    </ul>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSecmMGBMgFER1EvvSqbN7k79rncNOL0-VNgLGJ3Mi68W1WEiw/viewform?usp=sf_link" target="_blank">
+                        <i class="btn-icon pulse fas fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-8 item">
+                <div class="card">
+                    <i class="icon icon-graduation"></i>
+                    <h4> Master Degree</h4>
+
+                    <ul>
+                        <li>Undergraduate Certificate</li>
+                        <li>Transcripts</li>
+                        <li>IELTS</li>
+                        <li>CV</li>
+                        <li>Recommendation Letter (WORK PLACE/ UNIVERSITY)</li>
+
+                        <li>Personal Statement</li>
+                        <li> International Data Page</li>
+                        <li> WAEC</li>
+                    </ul>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScIrbmP31KRyZi6Pt75Ye8WjGmY9os3BMA7OLfzYVtQk347sg/viewform?usp=sf_link" target="_blank">
+                        <i class="btn-icon pulse fas fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 item">
+
+                <div class="card">
+                    <i class="icon icon-docs"></i>
+                    <h4> PhD </h4>
+
+                    <ul>
+                        <li>Undergraduate Certificate</li>
+                        <li> Master Degree Certificate</li>
+                        <li>Master degree Transcript</li>
+                        <li> Recommendation Letter (WORKPLACE/ UNIVERSITY)</li>
+                        <li> International Passport Data Page</li>
+                        <li> Research Topic &, Research Proposal- (2-3pages) or as stated by the University</li>
+                    </ul>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScIrbmP31KRyZi6Pt75Ye8WjGmY9os3BMA7OLfzYVtQk347sg/viewform?usp=sf_link" target="_blank">
+                        <i class="btn-icon pulse fas fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- About -->
+<section id="about" class="section-2 odd highlights image-right featured">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text">
+                <div data-aos="fade-up" class="row intro">
+                    <div class="col-12 p-0">
+                        <span class="pre-title m-auto m-md-0">About Baseline</span>
+                        <h2><span class="featured"><span>Baseline</span></span> Educational Services</h2>
+                        <p>We are an established and registered Education consulting agency in Nigeria. We assist
+                            students seeking to study abroad by providing the widest range of services and
+                            commitments.</p>
+
+                    </div>
+                </div>
+                <div class="row items">
+                    <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
+                        <h4>
+                            <div class="float-left">
+                                <i class="mr-2 icon-badge"></i>
+                            </div>
+                            <div>
+                                Excellence
+                            </div>
+                        </h4>
+
+                    </div>
+                    <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
+
+                        <h4>
+                            <div class="float-left">
+                                <i class="mr-2 icon-lock"></i>
+                            </div>
+                            <div>
+                                Trust
+                            </div>
+                        </h4>
+
+                    </div>
+                </div>
+                <div class="row items">
+                    <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
+                        <h4>
+                            <div class="float-left">
+                                <i class="mr-2 icon-note"></i>
+                            </div>
+                            <div>
+                                Quality Services Delivery
+                            </div>
+
+                        </h4>
+
+                    </div>
+                    <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
+                        <h4>
+                            <div class="float-left">
+                                <i class="mr-2 icon-graduation"></i>
+                            </div>
+                            <div>
+                                Positive relationships
+                            </div>
+                        </h4>
+                    </div>
+                </div>
+
+                <!-- Action -->
+                <div data-aos="fade-up" class="buttons">
+                    <div class="d-sm-inline-flex mb-5 mb-md-0">
+                        <a href="#contact" class="smooth-anchor mx-auto mt-4 btn primary-button">GET IN TOUCH</a>
+                        <a href="#" class="smooth-anchor mx-auto ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 p-0 image">
+                <img src="{{asset('assets/images/about.jpg')}}" class="fit-image" alt="Fit Image">
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Contact -->
 <section id="contact" class="section-6 form contact">
@@ -302,7 +472,7 @@
                                     <i class="fas fa-map-marker-alt mr-2"></i>
                                 </div>
                                 <div>
-                                    Suite A, flat one, Philkruz Estate Phase IV, Kubwa Abuja
+                                    Suite A, Philkruz Estate Phase IV, Kubwa, Abuja
                                 </div>
                             </a>
                         </li>
@@ -350,7 +520,7 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fas fa-map-marker-alt mr-2"></i>
-                                Suite A, flat one, Philkruz Estate Phase IV, Kubwa Abuja
+                                Suite A, Philkruz Estate Phase IV, Kubwa, Abuja
                             </a>
                         </li>
                         <li class="nav-item">
