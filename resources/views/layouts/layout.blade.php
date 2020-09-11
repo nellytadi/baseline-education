@@ -34,12 +34,12 @@
     Vendor Stylesheet
     =============================================== -->
     <link rel="stylesheet" href="{{asset('assets/css/vendor/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/vendor/slider.min.css')}}">
+
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendor/icons.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendor/icons-fa.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendor/animation.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/css/vendor/gallery.min.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('assets/css/vendor/gallery.min.css')}}"> -->
     <link rel="stylesheet" href="{{asset('assets/css/vendor/cookie-notice.min.css')}}">
 
     <!-- ==============================================
@@ -768,19 +768,19 @@ Google reCAPTCHA // Put your site key here
 Vendor Scripts
 =============================================== -->
 <script src="{{asset('assets/js/vendor/jquery.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/jquery.easing.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/jquery.inview.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/popper.min.js')}}"></script>
+<script src="{{asset('assets/js/vendor/jquery.easing.min.js')}}" defer></script>
+<script src="{{asset('assets/js/vendor/jquery.inview.min.js')}}" defer></script>
+<script src="{{asset('assets/js/vendor/popper.min.js')}}" defer></script>
 <script src="{{asset('assets/js/vendor/bootstrap.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/ponyfill.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/slider.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/animation.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/progress-radial.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/bricklayer.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/gallery.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/shuffle.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/cookie-notice.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/particles.min.js')}}"></script>
+<script src="{{asset('assets/js/vendor/ponyfill.min.js')}}" defer></script>
+<script src="{{asset('assets/js/vendor/slider.min.js')}}" defer></script>
+<script src="{{asset('assets/js/vendor/animation.min.js')}}" defer></script>
+<script src="{{asset('assets/js/vendor/progress-radial.min.js')}}" defer></script>
+<!-- <script src="{{asset('assets/js/vendor/bricklayer.min.js')}}"></script>
+<script src="{{asset('assets/js/vendor/gallery.min.js')}}"></script> -->
+<script src="{{asset('assets/js/vendor/shuffle.min.js')}}" defer></script>
+<script src="{{asset('assets/js/vendor/cookie-notice.min.js')}}" defer></script>
+<script src="{{asset('assets/js/vendor/particles.min.js')}}" defer></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!-- ==============================================

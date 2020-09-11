@@ -1,5 +1,6 @@
 @extends('layouts.layout')
 @section('styles')
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/slider.min.css')}}">
     <style>
         :root {
             --header-bg-color: #f9f9f9;

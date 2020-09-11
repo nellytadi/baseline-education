@@ -199,7 +199,7 @@
                     <div class="col-6 col-md-4 col-lg-2 item filter-item"
                          data-groups='["uk"]'>
                         <div class="row card p-0 text-center">
-                            <img src="{{asset('"assets/images/uk-uni/nottinham.jpg')}}" alt="Lorem ipsum">
+                            <img src="{{asset('assets/images/uk-uni/nottinham.jpg')}}" alt="Lorem ipsum">
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2 item filter-item"
