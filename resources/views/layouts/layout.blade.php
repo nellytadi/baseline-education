@@ -399,8 +399,7 @@
                                 </div>
                             @endif
                         @endif
-                        <form action="{{url('contact')}}" method="post"
-                              class="nexgen-simple-form">
+                        <form action="{{url('contact')}}" method="post" class="nexgen-simple-form">
 
                             <div class="row form-group-margin">
                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
@@ -428,7 +427,7 @@
                                          data-sitekey="6LfoZcsZAAAAAOS40WxhdsReU0nDIu8R6AZuVlcd"></div>
                                 </div>
                                 <div class="col-12 input-group m-0 p-2">
-                                    <a class="btn primary-button">SEND</a>
+                                    <input type="submit" class="btn primary-button" value="SEND">
                                 </div>
                             </div>
                         </form>
