@@ -399,7 +399,7 @@
                                 </div>
                             @endif
                         @endif
-                        <form action="{{url('contact')}}" method="post" class="nexgen-simple-form">
+                        <form action="{{route('contact')}}" method="post" class="nexgen-simple-form">
 
                             <div class="row form-group-margin">
                                 <div class="col-12 col-md-6 m-0 p-2 input-group">

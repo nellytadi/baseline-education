@@ -38,16 +38,26 @@
       <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="429" column="97" lean-forward="false" selection-start-line="429" selection-start-column="97" selection-end-line="429" selection-end-column="97" />
+            <state relative-caret-position="515">
+              <caret line="417" column="29" lean-forward="true" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="29" />
               <folding>
                 <element signature="n#section#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#25304#29797#0#HTML" expanded="false" />
+                <element signature="e#25306#29799#0#HTML" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="50" column="67" lean-forward="false" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,6 +172,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="baseline" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseline" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,12 +328,12 @@
       <updated>1599573511711</updated>
       <workItem from="1599573515787" duration="40743000" />
       <workItem from="1599750541106" duration="9601000" />
-      <workItem from="1599911692703" duration="1565000" />
+      <workItem from="1599911692703" duration="1693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51909000" />
+    <option name="totallyTimeSpent" value="52037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -376,7 +400,7 @@
           <folding>
             <element signature="n#section#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#25304#29797#0#HTML" expanded="false" />
+            <element signature="e#25306#29799#0#HTML" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -535,14 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="50" column="67" lean-forward="false" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/why-us.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -619,6 +635,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="50" column="67" lean-forward="false" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -633,12 +657,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="429" column="97" lean-forward="false" selection-start-line="429" selection-start-column="97" selection-end-line="429" selection-end-column="97" />
+        <state relative-caret-position="515">
+          <caret line="417" column="29" lean-forward="true" selection-start-line="417" selection-start-column="29" selection-end-line="417" selection-end-column="29" />
           <folding>
             <element signature="n#section#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#25304#29797#0#HTML" expanded="false" />
+            <element signature="e#25306#29799#0#HTML" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
