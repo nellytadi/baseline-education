@@ -74,7 +74,7 @@ class ContactController extends Controller
                 );
             }
 
-            return back()->with($response);
+            return redirect()->to(url()->previous().'#contact')->with($response);
         }
 
     }

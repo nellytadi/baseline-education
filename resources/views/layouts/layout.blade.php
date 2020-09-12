@@ -441,7 +441,7 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="tel: +234 813 7821 173" class="nav-link">
                                 <div class="float-left" style="margin-top: -10px;">
 
                                     <i class="fas fa-phone-alt mr-2"></i>
@@ -454,13 +454,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="mailto:info@baselineeducationalservices.com" class="nav-link">
 
                                 <div class="float-left" style="margin-top: -10px;">
                                     <i class="fas fa-envelope mr-2"></i>
                                 </div>
                                 <div>
-                                    info@baselineeducationalservices.com
+                                   info@baselineeducationalservices.com
                                 </div>
 
                             </a>
