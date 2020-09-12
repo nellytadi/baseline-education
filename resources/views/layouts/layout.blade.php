@@ -412,7 +412,6 @@
                                 <div class="col-12 m-0 p-2 input-group">
                                     <input type="email" name="email" class="form-control field-email"
                                            placeholder="Email">
-
                                 </div>
 
                                 <div class="col-12 m-0 p-2 input-group">
