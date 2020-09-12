@@ -388,6 +388,7 @@
                         @endif
 
                         @if (session('status'))
+
                             @if (session('status') == "alert-success")
                                 <div class="alert alert-success">
                                     <span class="form-alert"> {{ session('message') }}</span>
@@ -403,20 +404,20 @@
                             @csrf
                             <div class="row form-group-margin">
                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                    <input type="text" name="name" class="form-control field-name" placeholder="Name">
+                                    <input type="text" name="name" class="form-control field-name" placeholder="Name" required>
                                 </div>
                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
-                                    <input type="text" name="phone" class="form-control field-phone"
+                                    <input type="tel" name="phone" class="form-control field-phone"
                                            placeholder="Phone">
                                 </div>
                                 <div class="col-12 m-0 p-2 input-group">
                                     <input type="email" name="email" class="form-control field-email"
-                                           placeholder="Email">
+                                           placeholder="Email" required>
                                 </div>
 
                                 <div class="col-12 m-0 p-2 input-group">
                                     <textarea name="message" class="form-control field-message"
-                                              placeholder="Message"></textarea>
+                                              placeholder="Message" minlength="5" required></textarea>
                                 </div>
 
 

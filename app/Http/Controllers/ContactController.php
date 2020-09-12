@@ -42,12 +42,19 @@ class ContactController extends Controller
                         $body .= '<tr><th style="font-size: 1.5rem; font-weight: 600; color: #1E50BC">'.$message.'</th></tr>';
                         $body .= '<tr><th style="font-size: 1.5rem; font-weight: 600; color: #1E50BC">'.$phone.'</th></tr>';
                         $body .= '</table>';
-                        mail($toMail, $subject, $body, $header);
+                        if(mail($toMail, $subject, $body, $header)){
+                            $response = array(
+                                "status" => "alert-success",
+                                "message" => "Your mail has been sent. We will get back to you shortly."
+                            );
+                        }
+                        else {
+                            $response = array(
+                                "status" => "alert-danger",
+                                "message" => "Oops, something went wrong. Please try again."
+                            );
+                        }
 
-                        $response = array(
-                            "status" => "alert-success",
-                            "message" => "Your mail have been sent."
-                        );
                     } else {
                         $response = array(
                             "status" => "alert-danger",
