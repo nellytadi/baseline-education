@@ -159,7 +159,9 @@
                         </li>
                     </ul>
                 </li>
-
+                <li class="nav-item ml-lg-3">
+                    <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">CONTACT US</a>
+                </li>
             </ul>
 
         {{--<!-- Navbar Icons -->--}}
@@ -180,12 +182,12 @@
                 </li>
             </ul>
 
-            <!-- Navbar Action -->
-            <ul class="navbar-nav action">
-                <li class="nav-item ml-3">
-                    <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">CONTACT US</a>
-                </li>
-            </ul>
+            {{--<!-- Navbar Action -->--}}
+            {{--<ul class="navbar-nav action">--}}
+                {{--<li class="nav-item ml-3">--}}
+                    {{--<a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">CONTACT US</a>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
         </div>
     </nav>
 
