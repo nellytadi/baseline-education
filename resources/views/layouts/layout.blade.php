@@ -34,7 +34,7 @@
     Vendor Stylesheet
     =============================================== -->
     <link rel="stylesheet" href="{{asset('assets/css/vendor/bootstrap.min.css')}}">
-
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/slider.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendor/icons.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/vendor/icons-fa.min.css')}}">
@@ -425,7 +425,7 @@
                                 <div class="col-12 m-0 p-2 input-group">
 
                                     <div class="g-recaptcha"
-                                         data-sitekey="6Le1McoZAAAAAPbeQEi36HuKa1Wod-v-uQMk3TPp"></div>
+                                         data-sitekey="6LfCZcsZAAAAAMLJdmNP68YlRx9p2tcQukvL-rUn"></div>
                                 </div>
                                 <div class="col-12 input-group m-0 p-2">
                                     <a class="btn primary-button">SEND</a>
@@ -776,11 +776,9 @@ Vendor Scripts
 <script src="{{asset('assets/js/vendor/slider.min.js')}}" defer></script>
 <script src="{{asset('assets/js/vendor/animation.min.js')}}" defer></script>
 <script src="{{asset('assets/js/vendor/progress-radial.min.js')}}" defer></script>
-<!-- <script src="{{asset('assets/js/vendor/bricklayer.min.js')}}"></script>
-<script src="{{asset('assets/js/vendor/gallery.min.js')}}"></script> -->
 <script src="{{asset('assets/js/vendor/shuffle.min.js')}}" defer></script>
 <script src="{{asset('assets/js/vendor/cookie-notice.min.js')}}" defer></script>
-<script src="{{asset('assets/js/vendor/particles.min.js')}}" defer></script>
+<script src="{{asset('assets/js/vendor/particles.min.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!-- ==============================================

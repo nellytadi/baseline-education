@@ -23,7 +23,7 @@ class ContactController extends Controller
                 if ($request->has('g-recaptcha-response') && !empty($request->input('g-recaptcha-response') )) {
 
                     // Google secret API
-                    $secretAPIkey = '6Le1McoZAAAAAE01zDzgdL7iWF13BPAaodNF1oVc';
+                    $secretAPIkey = '6LfCZcsZAAAAAPKRxKHXCN_ZTqYKZ64gF1D7_UEG';
 
                     // reCAPTCHA response verification
                     $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secretAPIkey . '&response=' . $_POST['g-recaptcha-response']);
