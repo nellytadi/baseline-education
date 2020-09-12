@@ -89,7 +89,7 @@
                 <div class="row">
                     <div class="col-12 align-self-center">
                         <p style="margin-bottom: 50px;">  Baseline educational Services have established strong links with highly ranked universities and colleges in different countries.
-                            To learn more about different study options, Applications, and Admissions procedures, Kindly Fill the Study Abroad Applications form below. Additionally, one of our Education Consultants will contact you to answer your questions or guide you through your Applications, Admission, and Visa processes.
+                            To learn more about different study options, applications, and admissions procedures, Kindly Fill the Study Abroad Applications form below. Additionally, one of our Education Consultants will contact you to answer your questions or guide you through your Applications, Admission, and Visa processes.
                         </p>
                     </div>
                 </div>
@@ -363,6 +363,7 @@
     </section>
 
 
+    @include('layouts.admission-requirements')
 
 
 @endsection

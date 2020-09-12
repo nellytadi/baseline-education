@@ -67,7 +67,7 @@
                                 commitments. </p>
                             <p>We have a team of seasoned and trained consultants that guide students from the process
                                 of career counseling, course selection, admission, visa, and post-arrival support. We
-                                partner with leading universities in the UK, US, Canada, and Germany to give our
+                                partner with leading universities in the UK, US, Canada and others to give our
                                 students varied options to pick from. </p>
                             <p>As a leading agency, we understand our client’s major needs which are <b>TRUST</b> and
                                 <b>QUALITY
@@ -156,6 +156,7 @@
     </section>
 
 
+    @include('layouts.admission-requirements')
 
 @endsection
 @section('scripts')

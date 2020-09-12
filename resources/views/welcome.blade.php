@@ -40,13 +40,13 @@
                         <div class="left text-left">
 
                             <!-- Content -->
-                            <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">Admission <br><span
+                            <h1 data-aos="zoom-in" data-aos-delay="100" class="title effect-static-text">Admission <br><span
                                         class="featured"><span> Services</span></span></h1>
-                            <p data-aos="zoom-in" data-aos-delay="2400" class="description">Our education consultants
+                            <p data-aos="zoom-in" data-aos-delay="400" class="description">Our education consultants
                                 completely review your documents before they submit to your chosen university.</p>
 
                             <!-- Action -->
-                            <div data-aos="fade-up" data-aos-delay="2800" class="buttons">
+                            <div data-aos="fade-up" data-aos-delay="800" class="buttons">
                                 <div class="d-sm-inline-flex">
                                     <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
                                     <a href="{{url('/company-profile')}}" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ
@@ -123,11 +123,9 @@
                 <span class="pre-title m-auto ml-md-0">Our Expertise</span>
                 <h2>Excellent <span class="featured"><span>Services</span></span></h2>
                 <p>We are leaders in providing consulting services with a set of cutting-edge technologies and a team
-                    of experienced and renowned professionals. These are some services we provide.</p>
+                    of experienced and renowned professionals. These are some of the services we provide.</p>
             </div>
-            {{--<div class="col-12 col-md-3 align-self-end">--}}
-                {{--<a href="#" class="btn mx-auto mr-md-0 ml-md-auto primary-button">SEE ALL</a>--}}
-            {{--</div>--}}
+
         </div>
         <div class="row justify-content-center items">
             <div class="col-12 col-md-6 col-lg-4 item">
@@ -501,6 +499,6 @@
 </section>
 
 
-
+@include('layouts.admission-requirements')
 
 @endsection

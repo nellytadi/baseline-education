@@ -101,9 +101,9 @@
                 <div data-aos="fade-up" class="col-12 col-md-6 item">
                     <div class="card card-2">
 
-                        <h4> Scholarships/Discounts</h4>
+                        <h4> Scholarships / Discounts</h4>
                         <p>We work with our students through different scholarship options available in different
-                            countries to suit their budgets. For example, do you know that you get 4000 euros
+                            countries to suit their budgets. For example, do you know that you get a 4000 euros
                             scholarship if you finished with a 2.2 in Ireland?</p>
 
                     </div>
@@ -151,6 +151,7 @@
         </div>
     </section>
 
+    @include('layouts.admission-requirements')
 
 @endsection
 @section('scripts')

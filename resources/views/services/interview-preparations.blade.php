@@ -63,7 +63,7 @@
                     <div class="row">
                         <div class="col-12 align-self-center">
                             <p>At Baseline Educational Services, we understand that interview is an important component
-                                of the admission process.
+                                of the admission and visa application process.
                             </p>
                             <p>
                                 Therefore, all efforts are made to prepare prospective international students, through a
