@@ -8,7 +8,7 @@ class ContactController extends Controller
 {
     public function sendMail(Request $request)
     {
-        dd($request->input());
+
         if ($request->has('email')) {
 
             $name = $request->input('name');

@@ -28,6 +28,8 @@ Route::get('/partners', function () {
 });
 
 
+Route::post('contact', 'ContactController@sendMail')->name('contact');
+
 //Services route
 Route::get('/career-counselling', function () {
     return view('services.career-counselling');
@@ -48,4 +50,3 @@ Route::get('/interview-preparations', function () {
 //end services route
 
 
-Route::post('/contact', 'ContactController@sendMail')->name('contact');

@@ -400,7 +400,7 @@
                             @endif
                         @endif
                         <form action="{{route('contact')}}" method="post" class="nexgen-simple-form">
-
+                            @csrf
                             <div class="row form-group-margin">
                                 <div class="col-12 col-md-6 m-0 p-2 input-group">
                                     <input type="text" name="name" class="form-control field-name" placeholder="Name">
