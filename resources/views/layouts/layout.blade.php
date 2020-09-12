@@ -425,7 +425,7 @@
                                 <div class="col-12 m-0 p-2 input-group">
 
                                     <div class="g-recaptcha"
-                                         data-sitekey="6LfCZcsZAAAAAMLJdmNP68YlRx9p2tcQukvL-rUn"></div>
+                                         data-sitekey="6LfoZcsZAAAAAOS40WxhdsReU0nDIu8R6AZuVlcd"></div>
                                 </div>
                                 <div class="col-12 input-group m-0 p-2">
                                     <a class="btn primary-button">SEND</a>
@@ -781,6 +781,7 @@ Vendor Scripts
 <script src="{{asset('assets/js/vendor/particles.min.js')}}"></script>
 <script src="{{asset('assets/js/main.js')}}"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 <!-- ==============================================
 Particles
 =============================================== -->
