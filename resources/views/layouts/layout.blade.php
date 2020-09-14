@@ -395,7 +395,7 @@
                                 <div class="float-left" style="margin-top: -10px;">
                                     <i class="fas fa-envelope mr-2"></i>
                                 </div>
-                                <div>
+                                <div style="word-break: break-all;">
                                    info@baselineeducationalservices.com
                                 </div>
 
@@ -406,7 +406,7 @@
                                 <div class="float-left">
                                     <i class="fas fa-map-marker-alt mr-2"></i>
                                 </div>
-                                <div>
+                                <div style="word-break: break-all;">
                                     Suite A, Philkruz Estate Phase IV, Kubwa, Abuja
                                 </div>
                             </a>
@@ -453,13 +453,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="mailto:info@baselineeducationalservices.com" class="nav-link">
+                            <a href="mailto:info@baselineeducationalservices.com" class="nav-link" style="word-break: break-all;">
                                 <i class="fas fa-envelope mr-2"></i>
                                 info@baselineeducationalservices.com
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="#" class="nav-link" style="word-break: break-all;">
                                 <i class="fas fa-map-marker-alt mr-2"></i>
                                 Suite A, Philkruz Estate Phase IV, Kubwa, Abuja
                             </a>
