@@ -34,8 +34,10 @@ class ContactController extends Controller
                     if ($response->success) {
 
                         $toMail = "info@baselineeducationalservices.com";
-//                        $header = "From: " . $name . "<" . $email . ">\r\n";
-                        $header = "MIME-Version: 1.0\r\n";
+
+                        $header = 'From: Website < noreply@baselineeducationalservices.com >' . "\r\n";
+                        $header .= 'Cc: baselineeducationalservices@gmail.com' . "\r\n";
+                        $header .= "MIME-Version: 1.0\r\n";
                         $header .= "Content-type: text/html\r\n";
 
                         $body  = '<table style="padding: 35px; background-color: #f5f5f5; font-family: Roboto, sans-serif; font-size: 1rem; text-align: left; border-radius: 4px">';
