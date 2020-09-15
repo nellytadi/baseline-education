@@ -159,19 +159,10 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item ml-lg-3">
-                    <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">CONTACT US</a>
+                <li class="nav-item ml-lg-3" >
+                    <a href="#contact" class="nav-link smooth-anchor btn ml-lg-auto primary-button" style="color: #fff;font-size: 1rem;font-weight: 500;text-align: center;justify-content: center;" >CONTACT US</a>
                 </li>
             </ul>
-
-        {{--<!-- Navbar Icons -->--}}
-        {{--<ul class="navbar-nav icons">--}}
-        {{--<li class="nav-item">--}}
-        {{--<a href="#" class="nav-link" data-toggle="modal" data-target="#search">--}}
-        {{--<i class="icon-magnifier"></i>--}}
-        {{--</a>--}}
-        {{--</li>--}}
-        {{--</ul>--}}
 
         <!-- Navbar Toggle -->
             <ul class="navbar-nav toggle">
@@ -182,10 +173,10 @@
                 </li>
             </ul>
 
-            {{--<!-- Navbar Action -->--}}
+            <!-- Navbar Action -->
             {{--<ul class="navbar-nav action">--}}
                 {{--<li class="nav-item ml-3">--}}
-                    {{--<a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">CONTACT US</a>--}}
+                    {{--<a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button" id="contact-btn-menu" >CONTACT US</a>--}}
                 {{--</li>--}}
             {{--</ul>--}}
         </div>
@@ -699,7 +690,9 @@
         <i class="fas fa-arrow-up"></i>
     </a>
 </div>
+<script>
 
+</script>
 <!-- ==============================================
 Google reCAPTCHA // Put your site key here
 =============================================== -->
@@ -709,6 +702,7 @@ Google reCAPTCHA // Put your site key here
 Vendor Scripts
 =============================================== -->
 <script src="{{asset('assets/js/vendor/jquery.min.js')}}"></script>
+
 <script src="{{asset('assets/js/vendor/jquery.easing.min.js')}}" defer></script>
 <script src="{{asset('assets/js/vendor/jquery.inview.min.js')}}" defer></script>
 <script src="{{asset('assets/js/vendor/popper.min.js')}}" defer></script>

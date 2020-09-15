@@ -35,7 +35,7 @@ jQuery(function ($) {
 
     'use strict';
 
-    let preloader = $('.preloader');
+    var preloader = $('.preloader');
 
     setTimeout(function() {
         preloader.addClass('ready');
@@ -53,8 +53,8 @@ jQuery(function ($) {
 
     function navResponsive() {
 
-        let navbar = $('.navbar .items');
-        let menu = $('#menu .items');
+        var navbar = $('.navbar .items');
+        var menu = $('#menu .items');
 
         menu.html('');
         navbar.clone().appendTo(menu);
@@ -168,7 +168,7 @@ jQuery(function ($) {
     })
 
     $('.nav-link').each(function() {
-        let href = $(this).attr('href');
+        var href = $(this).attr('href');
         if (href.length > 1 && href.indexOf('#') != -1) {
             $(this).addClass('smooth-anchor');
         }
@@ -177,7 +177,7 @@ jQuery(function ($) {
     $(document).on('click', '.smooth-anchor', function (e) {
         e.preventDefault();
 
-        let href = $(this).attr('href');
+        var href = $(this).attr('href');
         
         if (href.length > 1 && href.indexOf('#') != -1) {
             $('html, body').animate({
@@ -188,7 +188,7 @@ jQuery(function ($) {
 
     $('.dropdown-menu').each(function () {
 
-        let dropdown = $(this);
+        var dropdown = $(this);
 
         dropdown.hover(function () {
             dropdown.parent().find('.nav-link').first().addClass('active');
@@ -198,8 +198,8 @@ jQuery(function ($) {
         })
     })
 
-    let navbar_holder = $('.navbar-holder');
-    let navbar_height = $('.navbar-expand.sub').outerHeight();
+    var navbar_holder = $('.navbar-holder');
+    var navbar_height = $('.navbar-expand.sub').outerHeight();
 
     if(navbar_holder.length > 0) {
         $('.navbar-holder').css('min-height', navbar_height);
@@ -219,11 +219,11 @@ jQuery(function ($) {
 
     var animation = function(slider) {
 
-        let image = $(slider + ' .swiper-slide-active img');
-        let title = $(slider + ' .title');
-        let description = $(slider + ' .description');
-        let btn = $(slider + ' .buttons');
-        let nav = $(slider + ' nav');
+        var image = $(slider + ' .swiper-slide-active img');
+        var title = $(slider + ' .title');
+        var description = $(slider + ' .description');
+        var btn = $(slider + ' .buttons');
+        var nav = $(slider + ' nav');
 
         image.toggleClass('aos-animate');
         title.toggleClass('aos-animate');
@@ -285,7 +285,7 @@ jQuery(function ($) {
         on: {
             init: function() {
                 animation('.full-slider');
-                let pagination = $('.full-slider .swiper-pagination');
+                var pagination = $('.full-slider .swiper-pagination');
                 pagination.hide();
 
                 setTimeout(function() {
@@ -295,9 +295,9 @@ jQuery(function ($) {
             slideChange: function() {
                 animation('.full-slider');
 
-                let title = $('.full-slider .title');
-                let description = $('.full-slider .description');
-                let btn = $('.full-slider .buttons');
+                var title = $('.full-slider .title');
+                var description = $('.full-slider .description');
+                var btn = $('.full-slider .buttons');
                 
                 title.attr('data-aos-delay', 400);
                 description.attr('data-aos-delay', 800);
@@ -461,8 +461,8 @@ jQuery(function($) {
         })
     }
     
-    let preloader = $('.preloader');
-    let preloader_timeout = ( preloader.data('timeout') - 800);
+    var preloader = $('.preloader');
+    var preloader_timeout = ( preloader.data('timeout') - 800);
 
     initCounter('.counter.preloader', '.counter.preloader .radial', preloader_timeout);
     initCounter('.counter.funfacts', '.counter.funfacts .radial', 5000);
@@ -548,7 +548,7 @@ jQuery(function ($) {
             e.preventDefault();
 
             if ($('input[name="reCAPTCHA"]').length) {
-                let reCAPTCHA = $('input[name="reCAPTCHA"]');
+                var reCAPTCHA = $('input[name="reCAPTCHA"]');
     
                 grecaptcha.ready(function() {
                     grecaptcha.execute(reCAPTCHA.data('key'), { action: "create_comment" }).then(function(token) { 
@@ -583,7 +583,7 @@ jQuery(function ($) {
                             }, 1200);
 
                             input.each(function() {
-                                let input_name = $(this).attr('name');                     
+                                var input_name = $(this).attr('name');                     
 
                                 if(obj.fields[input_name] == true) {
                                     $(ID+' .field-'+input_name).removeClass('valid').addClass('invalid'); 
@@ -622,7 +622,7 @@ jQuery(function ($) {
 
     if ($('input[name="reCAPTCHA"]').length) {
 
-     let siteKey = "6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"; // Put your site key here
+     var siteKey = "6LfoZcsZAAAAAOS40WxhdsReU0nDIu8R6AZuVlcd"; // Put your site key here
      
      if(siteKey) { 
          $('input[name="reCAPTCHA"]').attr("data-key", siteKey); 
@@ -643,7 +643,7 @@ jQuery(function ($) {
 
     'use strict';
 
-    let cookieNotice = true;
+    var cookieNotice = true;
 
     if(cookieNotice) {
 
@@ -677,4 +677,6 @@ jQuery(function ($) {
             marketing: ['SSID'] // Cookies in the marketing category.
         })
     }
+
+
 })
