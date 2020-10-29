@@ -440,7 +440,7 @@
                         <li class="nav-item">
                             <a href="tel:+234 901 7168 330" class="nav-link">
                                 <i class="fas fa-phone-alt mr-2"></i>
-                                +234 901 7168 330
+                                +234 902 6221 132
                             </a>
                         </li>
                         <li class="nav-item">

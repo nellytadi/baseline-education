@@ -122,7 +122,7 @@
                     <div class="card card-4">
 
                         <h4> Visa Success Rate</h4>
-                        <p>We have recorded huge Visa success rates over the last two years</p>
+                        <p>Our team of experienced consultants  will walk you through the Visa process through professional counselling on the rules and application checklist</p>
                     </div>
                 </div>
 

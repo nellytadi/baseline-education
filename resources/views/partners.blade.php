@@ -37,10 +37,9 @@
         .card.card-6 {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{asset('assets/images/hotline.jpg')}}') no-repeat;
         }
-
-        .card p,.card h4 {
-            color: #fff;
-        }
+.card h4{
+    text-transform: uppercase
+}
 
 
     </style>
@@ -83,12 +82,13 @@
                 <div class="row text-center intro">
                     <div class="col-12">
                         <span class="pre-title">We have different study options</span>
-                        <h2 class="mb-0">Our <span class="featured"><span>Partners</span></span></h2>
+                        <h2 class="mb-0">Study <span class="featured"><span>Destinations</span></span></h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 align-self-center">
-                        <p style="margin-bottom: 50px;">  Baseline educational Services have established strong links with highly ranked universities and colleges in different countries.
+                        <p style="margin-bottom: 50px;"> 
+                             {{-- Baseline educational Services have established strong links with highly ranked universities and colleges in different countries. --}} 
                             To learn more about different study options, applications, and admissions procedures, Kindly Fill the Study Abroad Applications form below. Additionally, one of our Education Consultants will contact you to answer your questions or guide you through your Applications, Admission, and Visa processes.
                         </p>
                     </div>

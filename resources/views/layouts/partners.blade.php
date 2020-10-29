@@ -1,10 +1,10 @@
 <div class="row justify-content-center text-center">
     <div class="col-12">
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn">
+            {{-- <label class="btn">
                 <input type="radio" value="all" checked class="btn-filter-item">
                 <span>All</span>
-            </label>
+            </label> --}}
             <label class="btn active">
                 <input type="radio" value="uk" class="btn-filter-item">
                 <span>UK</span>
@@ -29,237 +29,205 @@
                 <input type="radio" value="australian" class="btn-filter-item">
                 <span>Australian</span>
             </label>
-            <label class="btn">
+            {{-- <label class="btn">
                 <input type="radio" value="netherlands" class="btn-filter-item">
                 <span>Netherlands</span>
-            </label>
+            </label> --}}
         </div>
     </div>
 </div>
-<div class="row items filter-items">
-    <!--UK SCHOOLS-->
-    {{--<div class="col-6 col-md-4 col-lg-2 item filter-item"--}}
-    {{--data-groups='["uk"]'>--}}
-    {{--<div class="row card p-0 text-center">--}}
-    {{--<img src="{{asset('assets/images/uk-uni/uni-hertford.png')}}" alt="uni-hertford">--}}
-    {{--</div>--}}
-    {{--</div>--}}
 
-    {{--<div class="col-6 col-md-4 col-lg-2 item filter-item"--}}
-    {{--data-groups='["uk"]'>--}}
-    {{--<div class="row card p-0 text-center">--}}
-    {{--<img src="{{asset('assets/images/uk-uni/kingston.png')}}" alt="kingston">--}}
-    {{--</div>--}}
-    {{--</div>--}}
+<div class="col-md-10 mx-auto">
 
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
+<div class=" items filter-items">
+
+
+    <div class="item filter-item"
          data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/birmingham.jpg')}}" alt="birmingham">
+        <div class="card p-0">
+            <p>Want to study in the UK? We understand the process can be challenging for many students because there are so many high schools, colleges and universities to choose from. With all the types of school, diverse locations and different rankings deciding on a school which is right for you is not easy. This is why our international education consultants will ensure you get a place for the right UK course. Baseline Educational Services can assist with your application for FOUNDATION, UNDERGRADUATE OR PROGRADUATE PROGRAMMES.
+            </p>
+            <p> We will present the options to you so that you can choose your ideal study destination. Contact us for more information about different universities, entry criteria, scholarships; admission and visa processes.
+            </p> 
+            <h4>INTERESTING FACTS ABOUT STUDYING IN THE UK</h4>
+            <ul>
+            <li>Opportunity to study at a highly ranked university; Internationally recognized institution.</li>
+            <li>Discounts/Scholarship.</li>
+            <li>Work Placement for some courses.</li>
+            <li>Work permit: Two years post study visa for <strong>MASTERS</strong> and ability to work while studying.</li>
+            <li>Flexible intakes or entries.</li>
+            <li>Multicultural and welcoming environment.</li>
+            <li>Excellent Support system for International Students.</li>
+            <li>Broad choice of degrees.</li>
+            <li>Travel connections</li>
+            </ul> 
+            <h4>POPULAR COURSES IN THE UK</h4>    
+            <ul>
+                <li>MBA</li>
+                <li>Law</li>
+                <li>Computer Science</li>
+                <li>Business</li>
+                <li>Engineering</li>
+                <li>Media</li>
+                <li>Architecture</li>
+
+            </ul>     
         </div>
     </div>
 
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/conventry.png')}}" alt="conventry">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/cransfield.png')}}" alt="cransfield">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/derby.png')}}" alt="derby">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/essex.png')}}" alt="essex">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/kent.jpg')}}" alt="kent">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/leeds.jpg')}}" alt="leeds">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/liverpool.png')}}" alt="liverpool">
-        </div>
-    </div>
-    {{--<div class="col-6 col-md-4 col-lg-2 item filter-item"--}}
-    {{--data-groups='["uk"]'>--}}
-    {{--<div class="row card p-0 text-center">--}}
-    {{--<img src="{{asset('assets/images/uk-uni/nottinham.jpg')}}" alt="nottinham">--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/nottinham-trent.jpg')}}" alt="nottinham-trentm">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["uk"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/uk-uni/surrey.jpg')}}" alt="surrey">
-        </div>
-    </div>
+   
 
     <!--END UK-->
 
-    <!--IRISH-->
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
+    <!--IRELAND-->
+    <div class=" item filter-item"
          data-groups='["irish"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/irish-uni/griffith.jpg')}}" alt="griffith">
+        <div class="card p-0 ">
+            <h4>INTERESTING FACTS ABOUT STUDYING IN IRELAND</h4>
+            <ul>
+                <li>Friendly and safe country. It is ranked 4<sup>th</sup> in the World happiness index 2018.</li>
+                <li>European headquarters for IT and pharma companies. Five of the world's eight top-selling&nbsp;drugs&nbsp;are&nbsp;produced in Ireland.</li>
+                <li>English speaking country.</li>
+                <li>World Class Education.</li>
+                <li>Scholarship and discounts.</li>
+                <li>Job opportunities.</li>
+                <li>Extensive choice of courses.</li>
+                <li>Work permit.</li>
+                <li>Low cost of Living.</li>
+                </ul>
+                
+                
+                <h4>POPULAR Courses</h4>
+                <ul>
+                    <li>Pharmaceutical Science</li>
+                    <li>Information Technology And Computer Science</li>
+                    <li>Chemical Engineering</li>
+                    <li>Biotechnology</li>
+                    <li>Human Resources</li>
+                    <li>Medical Sciences</li>
+                    <li>Business</li>
+                    <li>Law</li>
+                </ul>
+
+                   <h4> STUDY IN IRELAND</h4>
+                   <p>If you want to study in Ireland and learn more about their universities, kindly contact us TODAY.  Achieve your dream of studying at a highly ranked university by applying for the NEXT intake.  </p>
+
         </div>
     </div>
 
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["irish"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/irish-uni/ait.png')}}" alt="ait">
-        </div>
-    </div>
-    {{--<div class="col-6 col-md-4 col-lg-2 item filter-item"--}}
-    {{--data-groups='["irish"]'>--}}
-    {{--<div class="row card p-0 text-center">--}}
-    {{--<img src="{{asset('assets/images/irish-uni/dcu.png')}}" alt="dcu">--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    {{--<div class="col-6 col-md-4 col-lg-2 item filter-item"--}}
-    {{--data-groups='["irish"]'>--}}
-    {{--<div class="row card p-0 text-center">--}}
-    {{--<img src="{{asset('assets/images/irish-uni/ireland.jpg')}}" alt="ireland">--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["irish"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/irish-uni/limerick.png')}}" alt="limerick">
-        </div>
-    </div>
-    <!--END IRISH-->
+    <!--END IRELAND-->
 
     <!--GERMAN-->
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
+    <div class="item filter-item"
          data-groups='["german"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/german/gisma.png')}}" alt="gisma">
+        <div class=" card p-0 ">
+            <h4>INTERESTING FACTS ABOUT STUDYING IN GERMANY</h4>
+            <ul>
+                <li>Endless opportunities to work.</li>
+                <li>Cultural diversity.</li>
+                <li>World class education</li>
+                <li>The cost of living in Germany is affordable.</li>
+                <li>Get to explore Europe: the German student visa would allow you to travel to <b>26 countries</b> without restrictions.</li>
+                <li>Activities to create memorable experiences.</li>
+                <li>Attractive workplaces.</li>
+            </ul>
+
+            <h4>STUDY IN GERMANY</h4>
+            <p>If you want to study in Germany and learn more about their universities, kindly contact us TODAY. Achieve your dream of studying at a highly ranked university by applying for the NEXT intake.</p>
         </div>
     </div>
     <!--END GERMAN-->
 
     <!--CANADIAN-->
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
+    <div class="item filter-item"
          data-groups='["canadian"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/canadian/alberta.jpg')}}" alt="alberta">
+        <div class=" card p-0">
+            <h4>INTERESTING FACTS ABOUT STUDYING IN CANADA</h4>
+            <ul>
+                <li>Canada is recognized worldwide for their outstanding quality of education&mdash;from elementary school to post-secondary studies.</li>
+                <li>Diverse and cosmopolitan environment for International Students.</li>
+                <li>Universities focus on research and many praises their innovative discoveries.</li>
+                <li>Immigration Possibilities.</li>
+                <li>International students can work in Canada after graduation.</li>
+                <li>Canada's education system ranks among the best in the world.</li>
+                <li>Sports at Canadian universities and colleges are popular and competitive.</li>
+                <li>Canada is a world leader in urban transport, biotechnology, mining technology software development, telecommunications, aerospace engineering and environmental industries.</li>
+                <li>They are at the forefront of the information technology revolution and ensure that their students are prepared for the 21st century.</li>
+                <li>A degree from a Canadian university is considered equivalent to an American degree.</li>
+            </ul>
+            
+            <h4>STUDY IN CANADA</h4>
+            <p>If you want to study in Canada and learn more about their universities, kindly contact us TODAY. Achieve your dream of studying at a highly ranked university by applying for the NEXT intake.</p>
         </div>
     </div>
-    {{--<div class="col-6 col-md-4 col-lg-2 item filter-item"--}}
-    {{--data-groups='["canadian"]'>--}}
-    {{--<div class="row card p-0 text-center">--}}
-    {{--<img src="{{asset('assets/images/canadian/bodwell.png')}}" alt="bodwell">--}}
-    {{--</div>--}}
-    {{--</div>--}}
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["canadian"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/canadian/manitoba.png')}}" alt="manitoba">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["canadian"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/canadian/taie.png')}}" alt="taie">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["canadian"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/canadian/regina.png')}}" alt="regina">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["canadian"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/canadian/windsor.png')}}" alt="windsor">
-        </div>
-    </div>
-
+   
     <!--END CANADIAN-->
 
     <!--US -->
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
+    <div class="item filter-item"
          data-groups='["us"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/us/utah.png')}}" alt="utah">
-        </div>
+        <div class=" card p-0 ">
+            <h4>INTERESTING FACTS ABOUT STUDYING IN USA</h4>
+
+            <ul>
+                <li>About fifty percent of the world's top 50 universities are located in the U.S, because of their highly qualified professors, small class sizes, cutting-edge technology and research capabilities.</li>
+                <li>Engaging campuses.</li>
+                <li>Guaranteed successful career after graduation.</li>
+                <li>Emphasis on internships and career advancement.</li>
+                <li>Diversity of student population on campus.</li>
+                <li>Specialized services and support for international students.</li>
+                <li>Studying in an American high school usually takes 4 years from 9-12 grade</li>
+                </ul>
+                <br>
+                <p><strong>Two-year colleges：</strong> Community colleges have lower admission levels and tuition fees. Graduates from community colleges can gain an Associate Degree and use it as the foundation for a bachelor degree by completing another two years study at a US university.</p>
+                
+                <p><strong>Four-year colleges：</strong> There are two kinds of colleges: public (state) and private colleges. A bachelor degree usually takes 4 years. A Master degree usually takes two years, a doctoral degree usually takes four to five years or more.</p>
+                
+                <h4>STUDY IN USA</h4>
+                <p>
+                    If you want to study in USA and learn more about their universities, kindly contact us TODAY.  Achieve your dream of studying at a highly ranked university by applying for the NEXT intake.  
+                </p>
+            </div>
     </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["us"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/us/pace.jpg')}}" alt="pace">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["us"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/us/northern.jpg')}}" alt="northern">
-        </div>
-    </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["us"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/us/american.png')}}" alt="american">
-        </div>
-    </div>
+    
     <!--END US-->
 
     <!--AUSTRALIA-->
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
+    <div class="item filter-item"
          data-groups='["australian"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/australia/melbourne.png')}}" alt="melbourne">
+        <div class=" card p-0 ">
+            <h4>INTERESTING FACTS ABOUT STUDYING IN AUSTRALIA</h4>
+            <ul>
+                <li>Australia is at the forefront of new technology and innovations. Students who study in Australia can benefit from the country's notable technology and resources.</li>
+                <li>Diversity of Education</li>
+                <li>Global Recognition.</li>
+                <li>Australia offer great work opportunities.</li>
+                <li>Australia is culturally diverse.</li>
+                <li>Internship Availability.</li>
+                <li>Vibrant city life.</li>
+                <li>Students' interests are provided by the government through legislation called the Education Services for Overseas Students (ESOS) Act. This guarantees protection of oversees students by regulating the educational institutions and ensuring registration of institutions and courses based on quality.</li>
+                <li>Australia is one of the most ethnically diverse countries in the world. They are welcoming and friendly - International experience will increase your future job opportunities and can give you important employment advantages.</li>
+            </ul>
+
+            <h4>STUDY IN AUSTRALIA</h4>
+            <p>If you want to study in Australia and learn more about their universities, kindly contact us TODAY. Achieve your dream of studying at a highly ranked university by applying for the NEXT intake</p>
         </div>
     </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["australian"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/australia/sydney.png')}}" alt="sydney">
-        </div>
-    </div>
+    
     <!--END AUSTRALIA-->
 
     <!--NETHERLANDS -->
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
+    {{-- <div class="col-6 col-md-4 col-lg-2 item filter-item"
          data-groups='["netherlands"]'>
         <div class="row card p-0 text-center">
             <img src="{{asset('assets/images/netherlands/hague.png')}}" alt="hague">
         </div>
     </div>
-    <div class="col-6 col-md-4 col-lg-2 item filter-item"
-         data-groups='["netherlands"]'>
-        <div class="row card p-0 text-center">
-            <img src="{{asset('assets/images/netherlands/twente.png')}}" alt="twente">
-        </div>
-    </div>
+    --}}
     <!--END NETHERLANDS -->
     <div class="col-1 filter-sizer"></div>
+
+
+
+</div>
 </div>
