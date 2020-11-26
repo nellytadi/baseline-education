@@ -1,10 +1,7 @@
 <div class="row justify-content-center text-center">
     <div class="col-12">
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            {{-- <label class="btn">
-                <input type="radio" value="all" checked class="btn-filter-item">
-                <span>All</span>
-            </label> --}}
+           
             <label class="btn active">
                 <input type="radio" value="uk" class="btn-filter-item">
                 <span>UK</span>
@@ -29,10 +26,7 @@
                 <input type="radio" value="australian" class="btn-filter-item">
                 <span>Australian</span>
             </label>
-            {{-- <label class="btn">
-                <input type="radio" value="netherlands" class="btn-filter-item">
-                <span>Netherlands</span>
-            </label> --}}
+          
         </div>
     </div>
 </div>
@@ -45,6 +39,11 @@
     <div class="item filter-item"
          data-groups='["uk"]'>
         <div class="card p-0">
+            <div class="col-md-8">
+                <img src="{{asset('assets/images/study/study-uk.jpg')}}" class="img-fluid" alt="study in the UK">
+
+            </div>
+            <br>
             <p>Want to study in the UK? We understand the process can be challenging for many students because there are so many high schools, colleges and universities to choose from. With all the types of school, diverse locations and different rankings deciding on a school which is right for you is not easy. This is why our international education consultants will ensure you get a place for the right UK course. Baseline Educational Services can assist with your application for FOUNDATION, UNDERGRADUATE OR PROGRADUATE PROGRAMMES.
             </p>
             <p> We will present the options to you so that you can choose your ideal study destination. Contact us for more information about different universities, entry criteria, scholarships; admission and visa processes.
@@ -61,17 +60,92 @@
             <li>Broad choice of degrees.</li>
             <li>Travel connections</li>
             </ul> 
-            <h4>POPULAR COURSES IN THE UK</h4>    
-            <ul>
-                <li>MBA</li>
-                <li>Law</li>
-                <li>Computer Science</li>
-                <li>Business</li>
-                <li>Engineering</li>
-                <li>Media</li>
-                <li>Architecture</li>
+            <h4>POPULAR COURSES IN THE UK</h4>   
+            <style>
+                .plank-img-top{
+                    width: auto;
+                    height: 200px;
+                }
+                .plank-text{
+                    font-weight: bold;
+                }
+                </style>
+                <div class="row">
 
-            </ul>     
+            <div class="col-md-4" >
+                
+            <div class="plank" >
+                
+                <img src="{{asset('assets/images/study/mba-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+
+                <div class="plank-body">
+                  <p class="plank-text"> MBA </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" >
+            <div class="plank" >
+                
+                <img src="{{asset('assets/images/study/law-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+
+                <div class="plank-body">
+                  <p class="plank-text"> Law </p>
+                </div>
+            </div>
+              </div>
+        <div class="col-md-4" >
+            <div class="plank">
+                
+                <img src="{{asset('assets/images/study/cs-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+
+                <div class="plank-body">
+                  <p class="plank-text">  Computer Science </p>
+                </div>
+            </div>
+              </div>
+        <div class="col-md-4" >
+            <div class="plank">
+                
+                <img src="{{asset('assets/images/study/business-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+
+                <div class="plank-body">
+                  <p class="plank-text"> Business</p>
+                </div>
+            </div>
+              </div>
+        <div class="col-md-4" >
+            <div class="plank">
+                
+                <img src="{{asset('assets/images/study/engineering-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+
+                <div class="plank-body">
+                  <p class="plank-text"> Engineering </p>
+                </div>
+            </div>
+              </div>
+        <div class="col-md-4" >
+            <div class="plank">
+                
+                <img src="{{asset('assets/images/study/media-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+
+                <div class="plank-body">
+                  <p class="plank-text">  Media </p>
+                </div>
+            </div>
+              </div>
+              <div class="col-md-4" >
+
+            <div class="plank">
+                
+                <img src="{{asset('assets/images/study/architecture-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+
+                <div class="plank-body">
+                  <p class="plank-text">  Architecture </p>
+                </div>
+            </div>
+              </div>
+      
+        </div>
         </div>
     </div>
 
@@ -84,6 +158,11 @@
          data-groups='["irish"]'>
         <div class="card p-0 ">
             <h4>INTERESTING FACTS ABOUT STUDYING IN IRELAND</h4>
+            <div class="col-md-8">
+                <img src="{{asset('assets/images/study/study-ireland.jpg')}}" class="img-fluid" alt="study in the UK">
+
+            </div>
+            <br>
             <ul>
                 <li>Friendly and safe country. It is ranked 4<sup>th</sup> in the World happiness index 2018.</li>
                 <li>European headquarters for IT and pharma companies. Five of the world's eight top-selling&nbsp;drugs&nbsp;are&nbsp;produced in Ireland.</li>
@@ -98,16 +177,108 @@
                 
                 
                 <h4>POPULAR Courses</h4>
-                <ul>
-                    <li>Pharmaceutical Science</li>
-                    <li>Information Technology And Computer Science</li>
-                    <li>Chemical Engineering</li>
-                    <li>Biotechnology</li>
-                    <li>Human Resources</li>
-                    <li>Medical Sciences</li>
-                    <li>Business</li>
-                    <li>Law</li>
-                </ul>
+
+                <div class="row">
+
+                    <div class="col-md-4" >
+                        
+                        <div class="plank" >
+                            
+                            <img src="{{asset('assets/images/study/pharmacy-ire.jpg')}}" class="plank-img-top" alt="study in the UK">
+            
+                            <div class="plank-body">
+                            <p class="plank-text"> Pharmaceutical Science </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" >
+                            
+                        <div class="plank" >
+                            
+                            <img src="{{asset('assets/images/study/it-ire.jpg')}}" class="plank-img-top" alt="study in the UK">
+            
+                            <div class="plank-body">
+                            <p class="plank-text"> Information Technology And Computer Science </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" >
+                            
+                        <div class="plank" >
+                            
+                            <img src="{{asset('assets/images/study/chem-ire.jpg')}}" class="plank-img-top" alt="study in the UK">
+            
+                            <div class="plank-body">
+                            <p class="plank-text">Chemical Engineering </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" >
+                            
+                        <div class="plank" >
+                            
+                            <img src="{{asset('assets/images/study/bio-tech-ire.jpg')}}" class="plank-img-top" alt="study in the UK">
+            
+                            <div class="plank-body">
+                            <p class="plank-text"> Biotechnology </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" >
+                            
+                        <div class="plank" >
+                            
+                            <img src="{{asset('assets/images/study/hr-ire.jpg')}}" class="plank-img-top" alt="study in the UK">
+            
+                            <div class="plank-body">
+                            <p class="plank-text"> Human Resources </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" >
+                            
+                        <div class="plank" >
+                            
+                            <img src="{{asset('assets/images/study/med-ire.jpg')}}" class="plank-img-top" alt="study in the UK">
+            
+                            <div class="plank-body">
+                            <p class="plank-text"> Medical Sciences </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" >
+                            
+                        <div class="plank" >
+                            
+                            <img src="{{asset('assets/images/study/business-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+            
+                            <div class="plank-body">
+                            <p class="plank-text"> Business </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" >
+                            
+                        <div class="plank" >
+                            
+                            <img src="{{asset('assets/images/study/law-uk.jpg')}}" class="plank-img-top" alt="study in the UK">
+            
+                            <div class="plank-body">
+                            <p class="plank-text"> Law </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+               
 
                    <h4> STUDY IN IRELAND</h4>
                    <p>If you want to study in Ireland and learn more about their universities, kindly contact us TODAY.  Achieve your dream of studying at a highly ranked university by applying for the NEXT intake.  </p>
@@ -122,6 +293,11 @@
          data-groups='["german"]'>
         <div class=" card p-0 ">
             <h4>INTERESTING FACTS ABOUT STUDYING IN GERMANY</h4>
+            <div class="col-md-8">
+                <img src="{{asset('assets/images/study/germany-study.jpg')}}" class="img-fluid" alt="study in the UK">
+
+            </div>
+            <br>
             <ul>
                 <li>Endless opportunities to work.</li>
                 <li>Cultural diversity.</li>
@@ -143,6 +319,10 @@
          data-groups='["canadian"]'>
         <div class=" card p-0">
             <h4>INTERESTING FACTS ABOUT STUDYING IN CANADA</h4>
+            <div class="col-md-8">
+                <img src="{{asset('assets/images/study/canada-study.jpg')}}" class="img-fluid" alt="study in the UK">
+            </div>
+            <br>
             <ul>
                 <li>Canada is recognized worldwide for their outstanding quality of education&mdash;from elementary school to post-secondary studies.</li>
                 <li>Diverse and cosmopolitan environment for International Students.</li>
@@ -168,7 +348,11 @@
          data-groups='["us"]'>
         <div class=" card p-0 ">
             <h4>INTERESTING FACTS ABOUT STUDYING IN USA</h4>
+            <div class="col-md-8">
+                <img src="{{asset('assets/images/study/usa-study.jpg')}}" class="img-fluid" alt="study in the UK">
 
+            </div>
+            <br>
             <ul>
                 <li>About fifty percent of the world's top 50 universities are located in the U.S, because of their highly qualified professors, small class sizes, cutting-edge technology and research capabilities.</li>
                 <li>Engaging campuses.</li>
@@ -197,6 +381,11 @@
          data-groups='["australian"]'>
         <div class=" card p-0 ">
             <h4>INTERESTING FACTS ABOUT STUDYING IN AUSTRALIA</h4>
+            <div class="col-md-8">
+                <img src="{{asset('assets/images/study/australia-study.jpg')}}" class="img-fluid" alt="study in the UK">
+
+            </div>
+            <br>
             <ul>
                 <li>Australia is at the forefront of new technology and innovations. Students who study in Australia can benefit from the country's notable technology and resources.</li>
                 <li>Diversity of Education</li>
